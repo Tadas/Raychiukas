@@ -23,3 +23,4 @@ function Set-RayLocationBetter {
 	[System.IO.Directory]::SetCurrentDirectory((Get-Location).Path)
 }
 Set-Alias cd "Set-RayLocationBetter" -Option AllScope -Scope Global
+Export-ModuleMember -Alias cd
